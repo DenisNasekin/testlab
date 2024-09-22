@@ -1,0 +1,88 @@
+@mixin h1($font-family) {
+    font-family: $font-family;
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 64px;
+}
+
+@mixin h2($font-family) {
+    font-family: $font-family;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 56px;
+}
+
+@mixin h3($font-family) {
+    font-family: $font-family;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+@mixin h4($font-family) {
+    font-family: $font-family;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+@mixin h5($font-family) {
+    font-family: $font-family;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+@mixin h6($font-family) {
+    font-family: $font-family;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+@mixin caption($font-family) {
+    font-family: $font-family;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.12em;
+}
+
+@mixin body18($font-family, $font-weight) {
+    font-family: $font-family;
+    font-size: 18px;
+    font-weight: $font-weight;
+    line-height: 32px;
+}
+
+@mixin body16($font-family, $font-weight) {
+    font-family: $font-family;
+    font-size: 16px;
+    font-weight: $font-weight;
+    line-height: 28px;
+}
+
+@mixin body14($font-family, $font-weight) {
+    font-family: $font-family;
+    font-size: 14px;
+    font-weight: $font-weight;
+    line-height: 24px;
+}
+
+@mixin body12($font-family, $font-weight) {
+    font-family: $font-family;
+    font-size: 12px;
+    font-weight: $font-weight;
+    line-height: 16px;
+}
+
+@mixin button($background-color, $color) {
+   background-color: $background-color;
+   color: $color;
+   border: 1px solid transparent;
+   width: 251px;
+   height: 64px;
+   border-radius: 4px;
+   cursor: pointer;
+   @include h5($font-family);
+}

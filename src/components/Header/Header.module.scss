@@ -1,0 +1,129 @@
+@import '../../styles/index.scss';
+
+.header {
+    max-width: $with-1920;
+    padding: 28px 16px;
+    background-color: inherit;
+    position: relative;
+    z-index: 4;
+
+    .container {
+        margin: 0 auto;
+        max-width: $container-width-1920;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .logo {
+            display: block;
+            width: 120px;
+            height: 24px;
+        }
+
+        .button {
+            display: none;
+            width: 22px;
+            height: 12px;
+            background-color: inherit;
+            cursor: pointer;
+            background-repeat: no-repeat;
+        }
+    
+        .nav {
+            display: flex;
+            align-items: center;
+            gap: 24px;
+            @include body16($font-family, $font-weight-regular);
+            color: $white-color;
+            
+            .link {
+                cursor: pointer;
+                &:hover {
+                   text-decoration: underline;
+                   text-underline-offset: 4px;
+                } 
+            }
+        }
+    }
+}
+
+@media (max-width: $with-768) {
+    .header {
+        max-width: $with-768;
+        padding: 28px 16px;
+    
+        .container {
+            max-width: $container-width-768;
+            
+            .button {
+                display: block;
+            }
+        
+            .nav {
+                display: none;
+                
+                .link {
+                    cursor: pointer;
+                    &:hover {
+                       text-decoration: underline;
+                       text-underline-offset: 4px;
+                    } 
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: $with-375) {
+    .header {
+        max-width: $with-375;
+        padding: 28px 16px;
+    
+        .container {
+            max-width: $container-width-375;
+
+            .button {
+                display: block;
+            }
+        
+            .nav {
+                display: none;
+                
+                .link {
+                    cursor: pointer;
+                    &:hover {
+                       text-decoration: underline;
+                       text-underline-offset: 4px;
+                    } 
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: $with-320) {
+    .header {
+        max-width: $with-320;
+        padding: 28px 16px;
+
+        .container {
+            max-width: $container-width-320;
+
+            .button {
+                display: block;
+            }
+        
+            .nav {
+                display: none;
+                
+                .link {
+                    cursor: pointer;
+                    &:hover {
+                       text-decoration: underline;
+                       text-underline-offset: 4px;
+                    } 
+                }
+            }
+        }
+    }
+}

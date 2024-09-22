@@ -14,10 +14,6 @@ module.exports = {
                 exclude: /node_modules/,
             },
             {
-                test:/\.(scss|sass)$/,
-                use: ['style-loader', 'css-loader', 'sass-loader'],
-            },
-            {
                 test: /\.scss$/,
                 use: [
                     {
@@ -28,7 +24,19 @@ module.exports = {
                     },
                     'sass-loader',
                 ]
-            },     
+            },
+            {
+                test: /\.(png|svg|jpg|gif)$/,
+                    use: [{
+                loader: 'file-loader',
+                options: {
+                    name: f => {
+                        let dirNameInsideAssets = path.relative(path.join(__dirname, 'src'), path.dirname(f));
+                        return `${dirNameInsideAssets}/[name].[ext]`;
+                    }
+                }
+            }],
+            },    
         ],
     },
     resolve : {

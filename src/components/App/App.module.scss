@@ -1,0 +1,7 @@
+@import '../../styles/index.scss';
+
+.App {
+  text-align: center;
+  color: $primary-color;
+  @include h1($font-family);
+}

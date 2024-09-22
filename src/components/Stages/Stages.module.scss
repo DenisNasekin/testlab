@@ -1,0 +1,122 @@
+@import '../../styles/index.scss';
+
+.section {
+    padding: 80px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .title {
+        @include h2($font-family);
+        margin-bottom: 61px;
+        color: $black-color;
+    }
+
+    .content {
+        max-width: $container-width-1920;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 32px;
+
+        .item {
+            width: 280px;
+        }
+
+        .icon {
+            margin-bottom: 16px
+        }
+
+        .titleIcon {
+            @include h6($font-family);
+            margin-bottom: 4px;
+            color: $black-color;
+        }
+
+        .text {
+            @include body14($font-family, $font-weight-regular);
+            color: $dark-grey-color;
+        }
+    }   
+}
+
+@media (max-width: $with-768) {
+    .section {
+        padding: 56px 20px;
+    
+        .title {
+            margin-bottom: 42px;
+        }
+    
+        .content {
+            max-width: $container-width-768;
+            gap: 32px;
+    
+            .item {
+                width: 342px;
+                display: flex;
+                gap: 16px;
+            
+            }
+    
+            .icon {
+                margin-bottom: 20px
+            }
+        }   
+    }
+}
+
+@media (max-width: $with-375) {
+    .section {
+        padding: 56px 16px;
+    
+        .title {
+            @include h4($font-family);
+            margin-bottom: 26px;
+        }
+    
+        .content {
+            width: $container-width-375;
+            flex-direction: column;
+    
+            .item {
+                display: flex;
+                gap: 16px;
+                width: 342px;
+            }
+    
+            .icon {
+                margin-bottom: 20px
+            }
+        }   
+    }
+}
+
+@media (max-width: $with-320) {
+    .section {
+        padding: 56px 16px;
+    
+        .title {
+            @include h4($font-family);
+            margin-bottom: 26px;
+        }
+    
+        .content {
+            width: $container-width-320;
+            flex-direction: column;
+    
+            .item {
+                display: flex;
+                gap: 16px;
+                width: 288px;
+            }
+    
+            .icon {
+                margin-bottom: 44px
+            }
+        }   
+    }
+}

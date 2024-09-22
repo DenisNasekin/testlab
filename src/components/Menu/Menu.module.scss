@@ -1,0 +1,82 @@
+@import '../../styles/index.scss';
+
+.menu {
+    position: relative;
+    z-index: 20;
+    top: -25px;
+    left: 0;
+    width: 100%;
+    height: 671px;
+    background-color:$white-color;
+
+    .container {
+        padding: 28px 16px;
+
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 17px;
+            border-bottom: 1px solid $light-grey-color;
+            padding-bottom: 28px;
+
+            .button {
+                display: block;
+                position: relative;
+                background-color: inherit;
+                width: 22px;
+                height: 22px;
+                cursor: pointer;
+
+                &::before {
+                    position: absolute;
+                    content: '';
+                    top: 0;
+                    left: 0;
+                    width: 22px;
+                    height: 22px;
+                    background-image: url('../../../public/image/right.svg');
+                    background-repeat: no-repeat;
+                }
+
+                &::after {
+                    position: absolute;
+                    content: '';
+                    top: 0;
+                    right: 0;
+                    width: 22px;
+                    height: 22px;
+                    background-image: url('../../../public/image/left.svg');
+                    background-repeat: no-repeat;
+                }
+            }
+        }
+
+        .nav {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            @include body18($font-family, $font-weight-regular);
+            color: $grey-color;
+
+            .link {
+                width: $container-width-1920;
+                display: flex;
+                justify-content: space-between;
+                border-bottom: 1px solid $light-grey-color;
+                margin-bottom: 16px;
+                padding-bottom: 16px;
+
+                .arrow {
+                    position: absolute;
+                    right: 19px;
+                    width: 24px;
+                    height: 24px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
