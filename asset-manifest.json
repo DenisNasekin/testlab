@@ -1,13 +1,16 @@
 {
   "files": {
-    "main.css": "/DenisNasekin/testlab/static/css/main.c53506ee.css",
-    "main.js": "/DenisNasekin/testlab/static/js/main.b9857de8.js",
+    "main.css": "/DenisNasekin/testlab/static/css/main.59fcdbb6.css",
+    "main.js": "/DenisNasekin/testlab/static/js/main.bf4059c2.js",
+    "static/media/GraphikLCG-Semibold.woff2": "/DenisNasekin/testlab/static/media/GraphikLCG-Semibold.2b854e7591466b32b210.woff2",
+    "static/media/GraphikLCG-Regular.woff2": "/DenisNasekin/testlab/static/media/GraphikLCG-Regular.92a1ff709799ec31f9f0.woff2",
+    "static/media/logo.svg": "/DenisNasekin/testlab/static/media/logo.621e5f4d295fa145d557.svg",
     "index.html": "/DenisNasekin/testlab/index.html",
-    "main.c53506ee.css.map": "/DenisNasekin/testlab/static/css/main.c53506ee.css.map",
-    "main.b9857de8.js.map": "/DenisNasekin/testlab/static/js/main.b9857de8.js.map"
+    "main.59fcdbb6.css.map": "/DenisNasekin/testlab/static/css/main.59fcdbb6.css.map",
+    "main.bf4059c2.js.map": "/DenisNasekin/testlab/static/js/main.bf4059c2.js.map"
   },
   "entrypoints": [
-    "static/css/main.c53506ee.css",
-    "static/js/main.b9857de8.js"
+    "static/css/main.59fcdbb6.css",
+    "static/js/main.bf4059c2.js"
   ]
 }
