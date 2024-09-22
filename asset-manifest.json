@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.css": "/DenisNasekin/testlab/static/css/main.a9c47af6.css",
-    "main.js": "/DenisNasekin/testlab/static/js/main.bf4059c2.js",
-    "static/media/GraphikLCG-Semibold.woff2": "/DenisNasekin/testlab/static/media/GraphikLCG-Semibold.2b854e7591466b32b210.woff2",
-    "static/media/GraphikLCG-Regular.woff2": "/DenisNasekin/testlab/static/media/GraphikLCG-Regular.92a1ff709799ec31f9f0.woff2",
-    "static/media/logo.svg": "/DenisNasekin/testlab/static/media/logo.621e5f4d295fa145d557.svg",
-    "index.html": "/DenisNasekin/testlab/index.html",
-    "main.a9c47af6.css.map": "/DenisNasekin/testlab/static/css/main.a9c47af6.css.map",
-    "main.bf4059c2.js.map": "/DenisNasekin/testlab/static/js/main.bf4059c2.js.map"
+    "main.css": "/static/css/main.9656a70b.css",
+    "main.js": "/static/js/main.56deb788.js",
+    "static/media/background.jpg": "/static/media/background.0c337efc6dc6c3210541.jpg",
+    "static/media/background-mob.jpg": "/static/media/background-mob.35bef22afab7fc11f043.jpg",
+    "static/media/GraphikLCG-Semibold.woff2": "/static/media/GraphikLCG-Semibold.2b854e7591466b32b210.woff2",
+    "static/media/GraphikLCG-Regular.woff2": "/static/media/GraphikLCG-Regular.92a1ff709799ec31f9f0.woff2",
+    "static/media/auto.png": "/static/media/auto.197ed37341fce55a2a5b.png",
+    "index.html": "/index.html",
+    "static/media/left.svg": "/static/media/left.62aa77625608971275e9.svg",
+    "static/media/right.svg": "/static/media/right.2187354b8550146c3872.svg",
+    "main.9656a70b.css.map": "/static/css/main.9656a70b.css.map",
+    "main.56deb788.js.map": "/static/js/main.56deb788.js.map"
   },
   "entrypoints": [
-    "static/css/main.a9c47af6.css",
-    "static/js/main.bf4059c2.js"
+    "static/css/main.9656a70b.css",
+    "static/js/main.56deb788.js"
   ]
 }
