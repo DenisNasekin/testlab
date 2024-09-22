@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/DenisNasekin/testlab/static/css/main.c53506ee.css",
+    "main.js": "/DenisNasekin/testlab/static/js/main.b9857de8.js",
+    "index.html": "/DenisNasekin/testlab/index.html",
+    "main.c53506ee.css.map": "/DenisNasekin/testlab/static/css/main.c53506ee.css.map",
+    "main.b9857de8.js.map": "/DenisNasekin/testlab/static/js/main.b9857de8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c53506ee.css",
+    "static/js/main.b9857de8.js"
+  ]
+}
